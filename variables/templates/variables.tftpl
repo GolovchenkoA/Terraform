@@ -1,0 +1,5 @@
+%{ for v in variables ~} 
+ val ${v} 
+ %{ endfor ~}
+ 
+ first variable: ${variables[0]}

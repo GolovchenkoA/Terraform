@@ -1,0 +1,82 @@
+module.database.random_password.password: Destroying... [id=none]
+module.database.random_password.password: Destruction complete after 0s
+module.autoscaling.module.iam_instance_profile.aws_iam_role_policy.iam_role_policy: Destroying... [id=terraform-20220725192545001300000001:terraform-20220725192549018700000002]
+module.autoscaling.module.iam_instance_profile.aws_iam_instance_profile.iam_instance_profile: Destroying... [id=terraform-20220725192549019200000003]
+module.autoscaling.module.alb.aws_lb_listener.frontend_http_tcp[0]: Destroying... [id=arn:aws:elasticloadbalancing:us-east-1:685207148890:listener/app/aholovchenko-project-aws1/caa3f60c414dc072/eaac13ce214c5d8c]
+module.autoscaling.module.iam_instance_profile.aws_iam_role_policy.iam_role_policy: Destruction complete after 1s
+module.autoscaling.module.alb.aws_lb_listener.frontend_http_tcp[0]: Destruction complete after 1s
+module.autoscaling.module.alb.aws_lb_target_group.main[0]: Destroying... [id=arn:aws:elasticloadbalancing:us-east-1:685207148890:targetgroup/websvr20220725193030714300000007/70594980f0981075]
+module.autoscaling.module.iam_instance_profile.aws_iam_instance_profile.iam_instance_profile: Destruction complete after 2s
+module.autoscaling.module.iam_instance_profile.aws_iam_role.iam_role: Destroying... [id=terraform-20220725192545001300000001]
+module.autoscaling.module.alb.aws_lb_target_group.main[0]: Destruction complete after 1s
+module.autoscaling.module.alb.aws_lb.this[0]: Destroying... [id=arn:aws:elasticloadbalancing:us-east-1:685207148890:loadbalancer/app/aholovchenko-project-aws1/caa3f60c414dc072]
+module.autoscaling.module.iam_instance_profile.aws_iam_role.iam_role: Destruction complete after 3s
+module.autoscaling.module.alb.aws_lb.this[0]: Destruction complete after 4s
+module.networking.module.vpc.aws_route_table_association.private[0]: Destroying... [id=rtbassoc-0cb82c3acc9bec328]
+module.networking.module.vpc.aws_route_table_association.public[0]: Destroying... [id=rtbassoc-05baf9cded2f7c911]
+module.networking.module.vpc.aws_route_table_association.public[1]: Destroying... [id=rtbassoc-070ead0148644491b]
+module.networking.module.vpc.aws_db_subnet_group.database[0]: Destroying... [id=aholovchenko-project-aws1-vpc]
+module.networking.module.vpc.aws_route_table_association.private[1]: Destroying... [id=rtbassoc-0847d924e1eeac396]
+module.networking.module.vpc.aws_route_table_association.database[1]: Destroying... [id=rtbassoc-014b7af31dfd210a9]
+module.networking.module.vpc.aws_route_table_association.public[2]: Destroying... [id=rtbassoc-0c2939b5f0ddd155b]
+module.networking.module.vpc.aws_route_table_association.private[2]: Destroying... [id=rtbassoc-00bc8f5d420123776]
+module.networking.module.vpc.aws_route.public_internet_gateway[0]: Destroying... [id=r-rtb-02dda071cadc9059c1080289494]
+module.networking.module.vpc.aws_route.private_nat_gateway[0]: Destroying... [id=r-rtb-00391925b7f4432911080289494]
+module.networking.module.vpc.aws_db_subnet_group.database[0]: Destruction complete after 1s
+module.networking.module.vpc.aws_route_table_association.database[2]: Destroying... [id=rtbassoc-01a0d64f39ef4bf44]
+module.networking.module.vpc.aws_route_table_association.public[1]: Destruction complete after 2s
+module.networking.module.db_sg.aws_security_group.security_group: Destroying... [id=sg-0d684f49fb67de08c]
+module.networking.module.vpc.aws_route_table_association.public[2]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.database[1]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.private[2]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.private[1]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.public[0]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.database[0]: Destroying... [id=rtbassoc-05c2c3f966dccc1c5]
+module.networking.module.vpc.aws_route_table_association.private[0]: Destruction complete after 2s
+module.networking.module.vpc.aws_subnet.private[0]: Destroying... [id=subnet-0413a6b08ee423f4b]
+module.networking.module.vpc.aws_subnet.private[2]: Destroying... [id=subnet-0f3455cc2c7fd913b]
+module.networking.module.vpc.aws_subnet.private[1]: Destroying... [id=subnet-082bb5062462f3417]
+module.networking.module.vpc.aws_route_table_association.database[2]: Destruction complete after 2s
+module.networking.module.vpc.aws_route.public_internet_gateway[0]: Destruction complete after 3s
+module.networking.module.vpc.aws_route_table.public[0]: Destroying... [id=rtb-02dda071cadc9059c]
+module.networking.module.vpc.aws_route.private_nat_gateway[0]: Destruction complete after 3s
+module.networking.module.vpc.aws_nat_gateway.this[0]: Destroying... [id=nat-0c2de5658941d9116]
+module.networking.module.vpc.aws_subnet.private[2]: Destruction complete after 2s
+module.networking.module.vpc.aws_route_table_association.database[0]: Destruction complete after 3s
+module.networking.module.vpc.aws_subnet.private[1]: Destruction complete after 3s
+module.networking.module.vpc.aws_subnet.private[0]: Destruction complete after 3s
+module.networking.module.db_sg.aws_security_group.security_group: Destruction complete after 3s
+module.networking.module.vpc.aws_subnet.database[2]: Destroying... [id=subnet-0c73cd218feedb60d]
+module.networking.module.vpc.aws_route_table.private[0]: Destroying... [id=rtb-00391925b7f443291]
+module.networking.module.vpc.aws_subnet.database[1]: Destroying... [id=subnet-0f16d219ab2ef0b40]
+module.networking.module.vpc.aws_subnet.database[0]: Destroying... [id=subnet-04ffcbd437af7fb8a]
+module.networking.module.websvr_sg.aws_security_group.security_group: Destroying... [id=sg-0b55f89dac2162fe6]
+module.networking.module.vpc.aws_route_table.public[0]: Destruction complete after 5s
+module.networking.module.vpc.aws_subnet.database[1]: Destruction complete after 5s
+module.networking.module.vpc.aws_subnet.database[0]: Destruction complete after 5s
+module.networking.module.vpc.aws_subnet.database[2]: Destruction complete after 5s
+module.networking.module.websvr_sg.aws_security_group.security_group: Destruction complete after 5s
+module.networking.module.lb_sg.aws_security_group.security_group: Destroying... [id=sg-0fe900871b0e2cae3]
+module.networking.module.vpc.aws_route_table.private[0]: Destruction complete after 6s
+module.networking.module.lb_sg.aws_security_group.security_group: Destruction complete after 2s
+module.networking.module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0c2de5658941d9116, 10s elapsed]
+module.networking.module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0c2de5658941d9116, 20s elapsed]
+module.networking.module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0c2de5658941d9116, 30s elapsed]
+module.networking.module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0c2de5658941d9116, 40s elapsed]
+module.networking.module.vpc.aws_nat_gateway.this[0]: Destruction complete after 46s
+module.networking.module.vpc.aws_internet_gateway.this[0]: Destroying... [id=igw-0e52bd35e4747ccc8]
+module.networking.module.vpc.aws_subnet.public[1]: Destroying... [id=subnet-03ec2c64405f88a6f]
+module.networking.module.vpc.aws_subnet.public[0]: Destroying... [id=subnet-09c3abcef4f1dd660]
+module.networking.module.vpc.aws_eip.nat[0]: Destroying... [id=eipalloc-03329ceeafed2cb56]
+module.networking.module.vpc.aws_subnet.public[2]: Destroying... [id=subnet-028499bc09834c0b5]
+module.networking.module.vpc.aws_subnet.public[2]: Destruction complete after 2s
+module.networking.module.vpc.aws_subnet.public[0]: Destruction complete after 2s
+module.networking.module.vpc.aws_subnet.public[1]: Destruction complete after 2s
+module.networking.module.vpc.aws_eip.nat[0]: Destruction complete after 3s
+module.networking.module.vpc.aws_internet_gateway.this[0]: Destruction complete after 3s
+module.networking.module.vpc.aws_vpc.this[0]: Destroying... [id=vpc-06763a73f719b8a93]
+module.networking.module.vpc.aws_vpc.this[0]: Destruction complete after 1s
+
+Destroy complete! Resources: 37 destroyed.
+
+C:\teraformProjects\aws milti-tier app>

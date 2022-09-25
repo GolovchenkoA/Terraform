@@ -1,0 +1,25 @@
+ Error: Error creating DB Instance: InvalidParameterValue: The parameter MasterUserPassword is not a valid password. Only printable ASCII characters besides '/', '@', '"', ' ' may be used.
+│       status code: 400, request id: 3d55d10e-8491-4139-bfd4-5811c4708162, {
+│   AllocatedStorage: 10,
+│   AutoMinorVersionUpgrade: true,
+│   BackupRetentionPeriod: 0,
+│   CopyTagsToSnapshot: false,
+│   DBInstanceClass: "db.t2.micro",
+│   DBInstanceIdentifier: "aholovchenko-project-aws1-db-instance",
+│   DBName: "pets",
+│   DBSubnetGroupName: "aholovchenko-project-aws1-vpc",
+│   DeletionProtection: false,
+│   Engine: "mysql",
+│   EngineVersion: "8.0",
+│   MasterUserPassword: "********",
+│   MasterUsername: "admin",
+│   PubliclyAccessible: false,
+│   StorageEncrypted: false,
+│   Tags: [],
+│   VpcSecurityGroupIds: ["sg-0d684f49fb67de08c"]
+│ }
+│
+│   with module.database.aws_db_instance.database,
+│   on modules\database\main.tf line 7, in resource "aws_db_instance" "database":
+│    7: resource "aws_db_instance" "database" {
+│
