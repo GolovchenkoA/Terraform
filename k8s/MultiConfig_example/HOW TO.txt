@@ -1,0 +1,21 @@
+Porject structure
+/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── environments/
+│   ├── dev.tfvars
+│   └── prod.tfvars
+└── modules/
+    └── webapp/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
+
+
+ # DEV
+ terraform init
+ terraform apply -var-file="environments/dev.tfvars"
+
+ # PROD (It will stop the DEV deployment and start the PROD deployment)
+ terraform apply -var-file="environments/prod.tfvars"
