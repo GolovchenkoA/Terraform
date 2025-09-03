@@ -19,3 +19,9 @@ Porject structure
 
  # PROD (It will stop the DEV deployment and start the PROD deployment)
  terraform apply -var-file="environments/prod.tfvars"
+
+ # How to destroy
+ terraform destroy -var-file="environments/<ENV>.tfvars" --auto-approve
+
+ Example:
+ terraform destroy -var-file="environments/prod.tfvars" --auto-approve
