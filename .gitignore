@@ -1,3 +1,13 @@
+# terraform.lock.hcl - should not be excluded from git
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+# Optional: crash logs, CLI logs
+crash.log
+
+
 # Java class files
 *.class
 
