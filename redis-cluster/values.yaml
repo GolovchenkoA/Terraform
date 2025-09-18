@@ -1,0 +1,25 @@
+image:
+  registry: docker.io/bitnamilegacy
+  repository: redis
+  tag: 7.2
+  pullPolicy: IfNotPresent
+
+cluster:
+  enabled: true
+  slaveCount: 2
+
+replica:
+  replicaCount: 2
+
+auth:
+  enabled: true
+  password: "redispassword123"
+
+persistence:
+  enabled: true
+  size: 1Gi
+
+resources:
+  requests:
+    memory: 256Mi
+    cpu: 100m
